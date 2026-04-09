@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@media screen and (min-width: 960px) {
+  .wrapper {
+    width: 1280px;
+  }
+
+  header {
+    width: 220px;
+  }
+
+  section {
+    width: 980px;
+  }
+
+  footer {
+    width: 220px;
+  }
+}
