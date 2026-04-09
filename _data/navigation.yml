@@ -1,0 +1,27 @@
+main:
+  - title: 智能体安全评测
+    url: /safety/
+  - title: 智能体协作评测
+    url: /cooperation/
+  - title: 智能体效能评测
+    url: /efficiency/
+
+safety:
+  - title: 状态与记忆
+    url: "#memory"
+  - title: 输入与感知
+    url: "#input"
+  - title: 推理与决策
+    url: "#reasoning"
+  - title: 行动与执行
+    url: "#action"
+  - title: 输出与外部影响
+    url: "#output"
+
+cooperation:
+  - title: 待定
+    url: "#todo"
+
+efficiency:
+  - title: 待定
+    url: "#todo"

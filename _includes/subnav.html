@@ -1,0 +1,13 @@
+{% if page.nav_key %}
+  {% assign items = site.data.navigation[page.nav_key] %}
+  {% if items %}
+  <div class="subnav">
+    <strong>本页导航</strong>
+    <ul>
+      {% for item in items %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+{% endif %}
