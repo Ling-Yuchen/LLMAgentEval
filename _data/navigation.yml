@@ -17,6 +17,8 @@ safety:
     url: "#action"
   - title: 输出与外部影响
     url: "#output"
+  - title: 综合评估
+    url: "#overall"
 
 cooperation:
   - title: 待定
